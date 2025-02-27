@@ -1,18 +1,18 @@
 // 썸네일 이미지 목록 & 프로젝트명
     const projects = [
-		{ img: "../img/re_thumbnail/thumb_likeapurespirit_03.jpg", title: "Like a Pure Spirit", link: "likeapurespirit.html",tags: "#Graphic #MotionGraphic #Print and Publication #Exhibition"},
-		{ img: "../img/flowersick/mainimage_01_resize.jpg", title: "Flower Sick", link: "flowersick.html",tags: "#VideoProduction"},
-		{ img: "../img/gestures/gestures_screened_gathered.jpg", title: "Gestures", link: "gestures.html",tags: "#Graphic #MotionGraphic #Drawing"},
-		{ img: "../img/royal salute/03.jpg", title: "Royal Salute", link: "royalsalute.html",tags: "#VideoProduction #Production"},
-		{ img: "../img/beyondyourimagination/face0013.png", title: "Beyond Your Imagination", link: "beyondyourimagination.html",tags: "#Graphic #Web.Interaction #Production #Exhibition"},
-		{ img: "../img/re_thumbnail/thumb_csmidentity_01.jpg", title: "Central Saint Martins Graduate Show Identity[Finalist]", link: "csmidentity.html",tags: "#Graphic #MotionGraphic #Branding"},
-		 { img: "../img/re_thumbnail/thumb_browsers.jpg", title: "Browsers and Browsers", link: "browsersandbrowsers.html",tags: "#Graphic #Web.Interaction #Print and Publication"},
-		{ img: "../img/betweenyourmemories/0t.png", title: "Between Your Memories", link: "betweenyourmemories.html",tags: "#Graphic #Web.Interaction"},
-		 { img: "../img/re_thumbnail/thumb_movement_01.jpg", poster: "../img/re_thumbnail/thumb_movement_01.png", title: "Movement and Non-movement", link: "movement.html",tags: "#Graphic #Motion Graphics #Illustration.Drawing #EverydayPractice"},
-		{ img: "../img/5543/collection1_04.jpg", title: "SanSan Press", link: "sansanpress.html",tags: "#Graphic #Illustration.Drawing #EverydayPractice"},
-		 { img: "../img/re_thumbnail/thumb_dualistic_05.jpg", title: "Dualistic Relationship: Does It Reveal or Conceal? -part 2", link: "dualisticrelationship_part2.html",tags: "#Graphic #Print and Publication #EverydayPractice"},
-		{ img: "../img/re_thumbnail/thumb_dualistic_04.jpg", title: "Dualistic Relationship: Does It Reveal or Conceal? -part 1", link: "dualisticrelationship_part1.html",tags: "#Graphic #Print and Publication #EverydayPractice"},
-		{ img: "../img/fromthesun/scene_03.jpg", title: "From the Sun", link: "fromthesun.html",tags: "#Graphic #MotionGraphic #Mobile"}
+		{ img: "img/re_thumbnail/thumb_likeapurespirit_03.jpg", title: "Like a Pure Spirit", link: "https://yejinschoi.com/html/likeapurespirit.html",tags: "#Graphic #MotionGraphic #Print and Publication #Exhibition"},
+		{ img: "img/re_thumbnail/mainimage_01_resize.jpg", title: "Flower Sick", link: "https://yejinschoi.com/html/flowersick.html",tags: "#VideoProduction"},
+		{ img: "img/re_thumbnail/gestures_screened_gathered.jpg", title: "Gestures", link: "https://yejinschoi.com/html/gestures.html",tags: "#Graphic #MotionGraphic #Drawing"},
+		{ img: "img/re_thumbnail/03.jpg", title: "Royal Salute", link: "https://yejinschoi.com/html/royalsalute.html",tags: "#VideoProduction #Production"},
+		{ img: "img/re_thumbnail/face0013.png", title: "Beyond Your Imagination", link: "https://yejinschoi.com/html/beyondyourimagination.html",tags: "#Graphic #Web.Interaction #Production #Exhibition"},
+		{ img: "img/re_thumbnail/thumb_csmidentity_01.jpg", title: "Central Saint Martins Graduate Show Identity[Finalist]", link: "https://yejinschoi.com/html/csmidentity.html",tags: "#Graphic #MotionGraphic #Branding"},
+		 { img: "img/re_thumbnail/thumb_browsers.jpg", title: "Browsers and Browsers", link: "https://yejinschoi.com/html/browsersandbrowsers.html",tags: "#Graphic #Web.Interaction #Print and Publication"},
+		{ img: "img/re_thumbnail/0t.png", title: "Between Your Memories", link: "https://yejinschoi.com/html/betweenyourmemories.html",tags: "#Graphic #Web.Interaction"},
+		 { img: "img/re_thumbnail/thumb_movement_01.jpg", poster: "../img/re_thumbnail/thumb_movement_01.png", title: "Movement and Non-movement", link: "https://yejinschoi.com/html/movement.html",tags: "#Graphic #Motion Graphics #Illustration.Drawing #EverydayPractice"},
+		{ img: "img/re_thumbnail/collection1_04.jpg", title: "SanSan Press", link: "https://yejinschoi.com/html/sansanpress.html",tags: "#Graphic #Illustration.Drawing #EverydayPractice"},
+		 { img: "img/re_thumbnail/thumb_dualistic_05.jpg", title: "Dualistic Relationship: Does It Reveal or Conceal? -part 2", link: "https://yejinschoi.com/html/dualisticrelationship_part2.html",tags: "#Graphic #Print and Publication #EverydayPractice"},
+		{ img: "img/re_thumbnail/thumb_dualistic_04.jpg", title: "Dualistic Relationship: Does It Reveal or Conceal? -part 1", link: "https://yejinschoi.com/html/dualisticrelationship_part1.html",tags: "#Graphic #Print and Publication #EverydayPractice"},
+		{ img: "img/re_thumbnail/scene_03.jpg", title: "From the Sun", link: "https://yejinschoi.com/html/fromthesun.html",tags: "#Graphic #MotionGraphic #Mobile"}
     ];
 const container = document.getElementById("projectContainer");
 
